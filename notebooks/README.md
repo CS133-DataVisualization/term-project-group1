@@ -1,4 +1,5 @@
 # This repository contains the final project for CS133<hr>
+## Group1 : Boseong Kang, David Heringer, Jaewon Kim, Geonho Lee<br>
 
 ## Our goal:<br>
 Does Twitter Sentiment Correlate with Apple Stock data? <br>
