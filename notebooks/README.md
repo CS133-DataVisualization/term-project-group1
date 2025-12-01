@@ -48,7 +48,7 @@ We analyze Twitter sentiment about Apple and compare it with the actual Apple st
 	2. Create a virtual environment <br>
 	3. Install dependencies:<br>
 	    - pip install -r requirements.txt <br>
-    4. csv files should be in the dataset folder
+    4. csv files should be in the dataset folder<br>
     5. Open the notebooks
 
 **6. References**
