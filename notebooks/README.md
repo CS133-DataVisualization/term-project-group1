@@ -43,13 +43,16 @@ We analyze Twitter sentiment about Apple and compare it with the actual Apple st
     - Gap up/down and intraday up/down patterns by weekday and month revealed strong seasonality in 2024 price action, independent of Twitter sentiment levels.  <br>
     - Quarterly revenue, market cap, and stock price for Apple moved closely together, confirming that fundamentals remain strongly correlated with valuation, whereas Twitter sentiment showed only weak correlation with returns.<br>
 
-**5. How to Run <br>**
+**5. How to Run <br>**: 
+    This project was developed and tested in Google Colab 
 	1. Clone this repo:<br>
 	    - git clone <repo-url> <br>
-	2. Create a virtual environment <br>
-	3. Install dependencies:<br>
-	    - pip install -r requirements.txt <br>
-    4. csv files should be in the dataset folder<br>
+	2. Make sure to Mount Google Drive <br>
+    from google.colab import drive
+     drive.mount('/content/drive')
+	3. Install dependencies if needed<br>
+	    - !pip install -r requirements.txt or !pip install pdfplumber <br>
+    4. Place csv files in the dataset folder on Google Driver<br>
     5. Open the notebooks
 
 **6. References**
